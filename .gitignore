@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+service-account*.json
+*-firebase-adminsdk-*.json
+backend/data/local/
+.vercel/
+

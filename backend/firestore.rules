@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // All private application data is accessed through the token-verifying FastAPI service.
+    // The frontend must never query another user's documents directly.
+    match /users/{uid}/{document=**} {
+      allow read, write: if false;
+    }
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+

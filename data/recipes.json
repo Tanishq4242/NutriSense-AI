@@ -1,0 +1,33 @@
+[
+  {
+    "id": "fdc-meal-idli",
+    "name": "Idli (FNDDS reference entry)",
+    "meal_category": "breakfast",
+    "ingredients": [{ "food_id": "fdc:2708346", "quantity_g": 200 }],
+    "ingredient_names": ["idli"],
+    "ingredient_data_complete": false,
+    "allergen_data_complete": false,
+    "known_allergens": ["unknown"],
+    "diet_tags": [],
+    "prep_minutes": 0,
+    "estimated_cost_level": null,
+    "cuisine_tags": ["Indian"],
+    "source": "USDA FoodData Central FNDDS entry; ingredient recipe is not represented by this food record"
+  },
+  {
+    "id": "fdc-meal-rice",
+    "name": "Cooked glutinous rice (FNDDS reference entry)",
+    "meal_category": "lunch",
+    "ingredients": [{ "food_id": "fdc:2708422", "quantity_g": 200 }],
+    "ingredient_names": ["rice"],
+    "ingredient_data_complete": false,
+    "allergen_data_complete": false,
+    "known_allergens": ["unknown"],
+    "diet_tags": [],
+    "prep_minutes": 0,
+    "estimated_cost_level": null,
+    "cuisine_tags": ["Asian"],
+    "source": "USDA FoodData Central FNDDS entry; use as a food reference rather than a complete recipe"
+  }
+]
+

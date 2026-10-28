@@ -1,0 +1,25 @@
+[
+  {
+    "id": "fdc:2708346",
+    "name": "Idli",
+    "category": "Rice mixed dishes",
+    "reference_quantity": 100,
+    "serving_unit": "g",
+    "nutrients": { "calories": 128, "protein": 6.36, "carbohydrates": 24.98, "fat": 0.35, "fiber": 5.8, "sugar": null, "sodium": null },
+    "source": "USDA FoodData Central — Survey (FNDDS)",
+    "source_id": "2708346",
+    "data_quality": "Survey (FNDDS); values per 100 g"
+  },
+  {
+    "id": "fdc:2708422",
+    "name": "Rice, white, cooked, glutinous",
+    "category": "Rice",
+    "reference_quantity": 100,
+    "serving_unit": "g",
+    "nutrients": { "calories": 96, "protein": 2.01, "carbohydrates": 20.97, "fat": 0.19, "fiber": null, "sugar": null, "sodium": null },
+    "source": "USDA FoodData Central — Survey (FNDDS)",
+    "source_id": "2708422",
+    "data_quality": "Survey (FNDDS); values per 100 g"
+  }
+]
+

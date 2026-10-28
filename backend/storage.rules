@@ -1,0 +1,10 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Browser uploads are denied. A future upload endpoint must validate ownership server-side.
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
+

@@ -1,0 +1,13 @@
+{
+  "name": "nutrisense-ai",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "pnpm --dir frontend dev",
+    "build": "pnpm --dir frontend build",
+    "typecheck": "pnpm --dir frontend typecheck",
+    "test:backend": "python -m pytest backend/tests -q"
+  }
+}
+
